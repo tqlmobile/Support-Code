@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84C6B320143F38EE001A63E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C6B31F143F38EE001A63E6 /* Foundation.framework */; };
+		84C6B326143F38EE001A63E6 /* ASCSpringboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C6B325143F38EE001A63E6 /* ASCSpringboardViewController.m */; };
+		84C6B35B143F3A6E001A63E6 /* DockItemView.h in Headers */ = {isa = PBXBuildFile; fileRef = 84C6B357143F3A6E001A63E6 /* DockItemView.h */; };
+		84C6B35C143F3A6E001A63E6 /* DockItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C6B358143F3A6E001A63E6 /* DockItemView.m */; };
+		84C6B35D143F3A6E001A63E6 /* DockItemViewiPad.h in Headers */ = {isa = PBXBuildFile; fileRef = 84C6B359143F3A6E001A63E6 /* DockItemViewiPad.h */; };
+		84C6B35E143F3A6E001A63E6 /* DockItemViewiPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C6B35A143F3A6E001A63E6 /* DockItemViewiPad.m */; };
+		84C6B362143F4035001A63E6 /* DockItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 84C6B360143F4035001A63E6 /* DockItem.h */; };
+		84C6B363143F4035001A63E6 /* DockItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C6B361143F4035001A63E6 /* DockItem.m */; };
+		84C6B367143F49C6001A63E6 /* CustomBadge.h in Headers */ = {isa = PBXBuildFile; fileRef = 84C6B365143F49C6001A63E6 /* CustomBadge.h */; };
+		84C6B368143F49C6001A63E6 /* CustomBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C6B366143F49C6001A63E6 /* CustomBadge.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		84C6B31C143F38EE001A63E6 /* libASCSpringboard.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libASCSpringboard.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		84C6B31F143F38EE001A63E6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		84C6B323143F38EE001A63E6 /* ASCSpringboard-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ASCSpringboard-Prefix.pch"; sourceTree = "<group>"; };
+		84C6B324143F38EE001A63E6 /* ASCSpringboardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASCSpringboardViewController.h; sourceTree = "<group>"; };
+		84C6B325143F38EE001A63E6 /* ASCSpringboardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASCSpringboardViewController.m; sourceTree = "<group>"; };
+		84C6B357143F3A6E001A63E6 /* DockItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DockItemView.h; sourceTree = "<group>"; };
+		84C6B358143F3A6E001A63E6 /* DockItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DockItemView.m; sourceTree = "<group>"; };
+		84C6B359143F3A6E001A63E6 /* DockItemViewiPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DockItemViewiPad.h; sourceTree = "<group>"; };
+		84C6B35A143F3A6E001A63E6 /* DockItemViewiPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DockItemViewiPad.m; sourceTree = "<group>"; };
+		84C6B35F143F3B61001A63E6 /* ASCSpringboard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ASCSpringboard.xib; sourceTree = "<group>"; };
+		84C6B360143F4035001A63E6 /* DockItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DockItem.h; path = ASCSpringboard/DockItem.h; sourceTree = SOURCE_ROOT; };
+		84C6B361143F4035001A63E6 /* DockItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DockItem.m; path = ASCSpringboard/DockItem.m; sourceTree = SOURCE_ROOT; };
+		84C6B365143F49C6001A63E6 /* CustomBadge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomBadge.h; sourceTree = "<group>"; };
+		84C6B366143F49C6001A63E6 /* CustomBadge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomBadge.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84C6B319143F38EE001A63E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C6B320143F38EE001A63E6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84C6B311143F38EE001A63E6 = {
+			isa = PBXGroup;
+			children = (
+				84C6B321143F38EE001A63E6 /* ASCSpringboard */,
+				84C6B31E143F38EE001A63E6 /* Frameworks */,
+				84C6B31D143F38EE001A63E6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84C6B31D143F38EE001A63E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84C6B31C143F38EE001A63E6 /* libASCSpringboard.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84C6B31E143F38EE001A63E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84C6B31F143F38EE001A63E6 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84C6B321143F38EE001A63E6 /* ASCSpringboard */ = {
+			isa = PBXGroup;
+			children = (
+				84C6B355143F3A4E001A63E6 /* External */,
+				84C6B324143F38EE001A63E6 /* ASCSpringboardViewController.h */,
+				84C6B325143F38EE001A63E6 /* ASCSpringboardViewController.m */,
+				84C6B322143F38EE001A63E6 /* Supporting Files */,
+			);
+			path = ASCSpringboard;
+			sourceTree = "<group>";
+		};
+		84C6B322143F38EE001A63E6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84C6B323143F38EE001A63E6 /* ASCSpringboard-Prefix.pch */,
+				84C6B35F143F3B61001A63E6 /* ASCSpringboard.xib */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84C6B355143F3A4E001A63E6 /* External */ = {
+			isa = PBXGroup;
+			children = (
+				84C6B364143F49C6001A63E6 /* CustomBadge */,
+				84C6B356143F3A6E001A63E6 /* Dock */,
+			);
+			name = External;
+			sourceTree = "<group>";
+		};
+		84C6B356143F3A6E001A63E6 /* Dock */ = {
+			isa = PBXGroup;
+			children = (
+				84C6B360143F4035001A63E6 /* DockItem.h */,
+				84C6B361143F4035001A63E6 /* DockItem.m */,
+				84C6B357143F3A6E001A63E6 /* DockItemView.h */,
+				84C6B358143F3A6E001A63E6 /* DockItemView.m */,
+				84C6B359143F3A6E001A63E6 /* DockItemViewiPad.h */,
+				84C6B35A143F3A6E001A63E6 /* DockItemViewiPad.m */,
+			);
+			name = Dock;
+			path = ../../Dock;
+			sourceTree = "<group>";
+		};
+		84C6B364143F49C6001A63E6 /* CustomBadge */ = {
+			isa = PBXGroup;
+			children = (
+				84C6B365143F49C6001A63E6 /* CustomBadge.h */,
+				84C6B366143F49C6001A63E6 /* CustomBadge.m */,
+			);
+			name = CustomBadge;
+			path = ../../CustomBadge;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		84C6B31A143F38EE001A63E6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C6B35B143F3A6E001A63E6 /* DockItemView.h in Headers */,
+				84C6B35D143F3A6E001A63E6 /* DockItemViewiPad.h in Headers */,
+				84C6B362143F4035001A63E6 /* DockItem.h in Headers */,
+				84C6B367143F49C6001A63E6 /* CustomBadge.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		84C6B31B143F38EE001A63E6 /* ASCSpringboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84C6B329143F38EE001A63E6 /* Build configuration list for PBXNativeTarget "ASCSpringboard" */;
+			buildPhases = (
+				84C6B318143F38EE001A63E6 /* Sources */,
+				84C6B319143F38EE001A63E6 /* Frameworks */,
+				84C6B31A143F38EE001A63E6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ASCSpringboard;
+			productName = ASCSpringboard;
+			productReference = 84C6B31C143F38EE001A63E6 /* libASCSpringboard.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84C6B313143F38EE001A63E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 84C6B316143F38EE001A63E6 /* Build configuration list for PBXProject "ASCSpringboard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 84C6B311143F38EE001A63E6;
+			productRefGroup = 84C6B31D143F38EE001A63E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84C6B31B143F38EE001A63E6 /* ASCSpringboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84C6B318143F38EE001A63E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C6B326143F38EE001A63E6 /* ASCSpringboardViewController.m in Sources */,
+				84C6B35C143F3A6E001A63E6 /* DockItemView.m in Sources */,
+				84C6B35E143F3A6E001A63E6 /* DockItemViewiPad.m in Sources */,
+				84C6B363143F4035001A63E6 /* DockItem.m in Sources */,
+				84C6B368143F49C6001A63E6 /* CustomBadge.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		84C6B327143F38EE001A63E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv6,
+					"$(ARCHS_STANDARD_32_BIT)",
+				);
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		84C6B328143F38EE001A63E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv6,
+					"$(ARCHS_STANDARD_32_BIT)",
+				);
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84C6B32A143F38EE001A63E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEPLOYMENT_LOCATION = NO;
+				DSTROOT = /tmp/ASCSpringboard.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ASCSpringboard/ASCSpringboard-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				INSTALL_PATH = "$(PROJECT_TEMP_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		84C6B32B143F38EE001A63E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEPLOYMENT_LOCATION = NO;
+				DSTROOT = /tmp/ASCSpringboard.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ASCSpringboard/ASCSpringboard-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				INSTALL_PATH = "$(PROJECT_TEMP_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84C6B316143F38EE001A63E6 /* Build configuration list for PBXProject "ASCSpringboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84C6B327143F38EE001A63E6 /* Debug */,
+				84C6B328143F38EE001A63E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84C6B329143F38EE001A63E6 /* Build configuration list for PBXNativeTarget "ASCSpringboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84C6B32A143F38EE001A63E6 /* Debug */,
+				84C6B32B143F38EE001A63E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84C6B313143F38EE001A63E6 /* Project object */;
+}

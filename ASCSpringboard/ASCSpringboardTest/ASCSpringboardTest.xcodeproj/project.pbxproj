@@ -1,0 +1,386 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84C6B379143F5659001A63E6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C6B378143F5659001A63E6 /* UIKit.framework */; };
+		84C6B37B143F5659001A63E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C6B37A143F5659001A63E6 /* Foundation.framework */; };
+		84C6B37D143F5659001A63E6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C6B37C143F5659001A63E6 /* CoreGraphics.framework */; };
+		84C6B383143F5659001A63E6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84C6B381143F5659001A63E6 /* InfoPlist.strings */; };
+		84C6B385143F5659001A63E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C6B384143F5659001A63E6 /* main.m */; };
+		84C6B389143F5659001A63E6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C6B388143F5659001A63E6 /* AppDelegate.m */; };
+		84C6B39E143F5FDA001A63E6 /* ASCSpringboard.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84C6B39D143F5FDA001A63E6 /* ASCSpringboard.xib */; };
+		84C6B3A9143F6119001A63E6 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C6B3A0143F6119001A63E6 /* back.png */; };
+		84C6B3AA143F6119001A63E6 /* dock-ghost.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C6B3A1143F6119001A63E6 /* dock-ghost.png */; };
+		84C6B3AB143F6119001A63E6 /* dock-ghost@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C6B3A2143F6119001A63E6 /* dock-ghost@2x.png */; };
+		84C6B3AC143F6119001A63E6 /* dock-shine.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C6B3A3143F6119001A63E6 /* dock-shine.png */; };
+		84C6B3AD143F6119001A63E6 /* dock-shine@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C6B3A4143F6119001A63E6 /* dock-shine@2x.png */; };
+		84C6B3AE143F6119001A63E6 /* dock.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C6B3A5143F6119001A63E6 /* dock.png */; };
+		84C6B3AF143F6119001A63E6 /* dock@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C6B3A6143F6119001A63E6 /* dock@2x.png */; };
+		84C6B3B0143F6119001A63E6 /* FFIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C6B3A7143F6119001A63E6 /* FFIcon.png */; };
+		84C6B3B1143F6119001A63E6 /* FFIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C6B3A8143F6119001A63E6 /* FFIcon@2x.png */; };
+		84C6B3B3143F6177001A63E6 /* logo_no_text.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C6B3B2143F6177001A63E6 /* logo_no_text.png */; };
+		84C6B3B9143F62EC001A63E6 /* libASCSpringboard.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C6B3B8143F62EC001A63E6 /* libASCSpringboard.a */; };
+		84C6B3C8143F8284001A63E6 /* about.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C6B3C2143F8284001A63E6 /* about.png */; };
+		84C6B3C9143F8284001A63E6 /* about@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C6B3C3143F8284001A63E6 /* about@2x.png */; };
+		84C6B3CA143F8284001A63E6 /* admissions.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C6B3C4143F8284001A63E6 /* admissions.png */; };
+		84C6B3CB143F8284001A63E6 /* admissions@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C6B3C5143F8284001A63E6 /* admissions@2x.png */; };
+		84C6B3CC143F8284001A63E6 /* dayton.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C6B3C6143F8284001A63E6 /* dayton.png */; };
+		84C6B3CD143F8284001A63E6 /* dayton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C6B3C7143F8284001A63E6 /* dayton@2x.png */; };
+		84C6B3D7143F8C9B001A63E6 /* graduate.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C6B3D5143F8C9B001A63E6 /* graduate.png */; };
+		84C6B3D8143F8C9B001A63E6 /* graduate@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C6B3D6143F8C9B001A63E6 /* graduate@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		84C6B374143F5659001A63E6 /* ASCSpringboardTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ASCSpringboardTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84C6B378143F5659001A63E6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		84C6B37A143F5659001A63E6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		84C6B37C143F5659001A63E6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		84C6B380143F5659001A63E6 /* ASCSpringboardTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ASCSpringboardTest-Info.plist"; sourceTree = "<group>"; };
+		84C6B382143F5659001A63E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		84C6B384143F5659001A63E6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84C6B386143F5659001A63E6 /* ASCSpringboardTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ASCSpringboardTest-Prefix.pch"; sourceTree = "<group>"; };
+		84C6B387143F5659001A63E6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84C6B388143F5659001A63E6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84C6B39C143F5FD0001A63E6 /* ASCSpringboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASCSpringboardViewController.h; path = ../../ASCSpringboard/ASCSpringboardViewController.h; sourceTree = "<group>"; };
+		84C6B39D143F5FDA001A63E6 /* ASCSpringboard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ASCSpringboard.xib; path = ../../ASCSpringboard/ASCSpringboard.xib; sourceTree = "<group>"; };
+		84C6B3A0143F6119001A63E6 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		84C6B3A1143F6119001A63E6 /* dock-ghost.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dock-ghost.png"; sourceTree = "<group>"; };
+		84C6B3A2143F6119001A63E6 /* dock-ghost@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dock-ghost@2x.png"; sourceTree = "<group>"; };
+		84C6B3A3143F6119001A63E6 /* dock-shine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dock-shine.png"; sourceTree = "<group>"; };
+		84C6B3A4143F6119001A63E6 /* dock-shine@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dock-shine@2x.png"; sourceTree = "<group>"; };
+		84C6B3A5143F6119001A63E6 /* dock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dock.png; sourceTree = "<group>"; };
+		84C6B3A6143F6119001A63E6 /* dock@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dock@2x.png"; sourceTree = "<group>"; };
+		84C6B3A7143F6119001A63E6 /* FFIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FFIcon.png; sourceTree = "<group>"; };
+		84C6B3A8143F6119001A63E6 /* FFIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FFIcon@2x.png"; sourceTree = "<group>"; };
+		84C6B3B2143F6177001A63E6 /* logo_no_text.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_no_text.png; sourceTree = "<group>"; };
+		84C6B3B4143F61B3001A63E6 /* DockItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DockItem.h; path = ../../ASCSpringboard/DockItem.h; sourceTree = "<group>"; };
+		84C6B3B5143F625B001A63E6 /* DockItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DockItemView.h; path = ../../../Dock/DockItemView.h; sourceTree = "<group>"; };
+		84C6B3B6143F625B001A63E6 /* DockItemViewiPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DockItemViewiPad.h; path = ../../../Dock/DockItemViewiPad.h; sourceTree = "<group>"; };
+		84C6B3B7143F6276001A63E6 /* CustomBadge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomBadge.h; path = ../../../CustomBadge/CustomBadge.h; sourceTree = "<group>"; };
+		84C6B3B8143F62EC001A63E6 /* libASCSpringboard.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libASCSpringboard.a; path = "../../../../../../Library/Developer/Xcode/DerivedData/ASCSpringboard-burrbznnmpxmxagjdkiigyxhwapt/Build/Products/Debug-iphonesimulator/libASCSpringboard.a"; sourceTree = "<group>"; };
+		84C6B3C2143F8284001A63E6 /* about.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = about.png; sourceTree = "<group>"; };
+		84C6B3C3143F8284001A63E6 /* about@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "about@2x.png"; sourceTree = "<group>"; };
+		84C6B3C4143F8284001A63E6 /* admissions.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = admissions.png; sourceTree = "<group>"; };
+		84C6B3C5143F8284001A63E6 /* admissions@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "admissions@2x.png"; sourceTree = "<group>"; };
+		84C6B3C6143F8284001A63E6 /* dayton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dayton.png; sourceTree = "<group>"; };
+		84C6B3C7143F8284001A63E6 /* dayton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dayton@2x.png"; sourceTree = "<group>"; };
+		84C6B3D5143F8C9B001A63E6 /* graduate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = graduate.png; sourceTree = "<group>"; };
+		84C6B3D6143F8C9B001A63E6 /* graduate@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "graduate@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84C6B371143F5659001A63E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C6B379143F5659001A63E6 /* UIKit.framework in Frameworks */,
+				84C6B37B143F5659001A63E6 /* Foundation.framework in Frameworks */,
+				84C6B37D143F5659001A63E6 /* CoreGraphics.framework in Frameworks */,
+				84C6B3B9143F62EC001A63E6 /* libASCSpringboard.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84C6B369143F5659001A63E6 = {
+			isa = PBXGroup;
+			children = (
+				84C6B37E143F5659001A63E6 /* ASCSpringboardTest */,
+				84C6B377143F5659001A63E6 /* Frameworks */,
+				84C6B375143F5659001A63E6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84C6B375143F5659001A63E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84C6B374143F5659001A63E6 /* ASCSpringboardTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84C6B377143F5659001A63E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84C6B378143F5659001A63E6 /* UIKit.framework */,
+				84C6B37A143F5659001A63E6 /* Foundation.framework */,
+				84C6B37C143F5659001A63E6 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84C6B37E143F5659001A63E6 /* ASCSpringboardTest */ = {
+			isa = PBXGroup;
+			children = (
+				84C6B398143F5FA1001A63E6 /* External */,
+				84C6B387143F5659001A63E6 /* AppDelegate.h */,
+				84C6B388143F5659001A63E6 /* AppDelegate.m */,
+				84C6B37F143F5659001A63E6 /* Supporting Files */,
+			);
+			path = ASCSpringboardTest;
+			sourceTree = "<group>";
+		};
+		84C6B37F143F5659001A63E6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84C6B39F143F6119001A63E6 /* Images */,
+				84C6B380143F5659001A63E6 /* ASCSpringboardTest-Info.plist */,
+				84C6B381143F5659001A63E6 /* InfoPlist.strings */,
+				84C6B384143F5659001A63E6 /* main.m */,
+				84C6B386143F5659001A63E6 /* ASCSpringboardTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84C6B398143F5FA1001A63E6 /* External */ = {
+			isa = PBXGroup;
+			children = (
+				84C6B399143F5FAC001A63E6 /* ASCSpringboard */,
+			);
+			name = External;
+			sourceTree = "<group>";
+		};
+		84C6B399143F5FAC001A63E6 /* ASCSpringboard */ = {
+			isa = PBXGroup;
+			children = (
+				84C6B3B8143F62EC001A63E6 /* libASCSpringboard.a */,
+				84C6B3B7143F6276001A63E6 /* CustomBadge.h */,
+				84C6B3B4143F61B3001A63E6 /* DockItem.h */,
+				84C6B3B5143F625B001A63E6 /* DockItemView.h */,
+				84C6B3B6143F625B001A63E6 /* DockItemViewiPad.h */,
+				84C6B39C143F5FD0001A63E6 /* ASCSpringboardViewController.h */,
+				84C6B39D143F5FDA001A63E6 /* ASCSpringboard.xib */,
+			);
+			name = ASCSpringboard;
+			sourceTree = "<group>";
+		};
+		84C6B39F143F6119001A63E6 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				84C6B3D5143F8C9B001A63E6 /* graduate.png */,
+				84C6B3D6143F8C9B001A63E6 /* graduate@2x.png */,
+				84C6B3C2143F8284001A63E6 /* about.png */,
+				84C6B3C3143F8284001A63E6 /* about@2x.png */,
+				84C6B3C4143F8284001A63E6 /* admissions.png */,
+				84C6B3C5143F8284001A63E6 /* admissions@2x.png */,
+				84C6B3C6143F8284001A63E6 /* dayton.png */,
+				84C6B3C7143F8284001A63E6 /* dayton@2x.png */,
+				84C6B3B2143F6177001A63E6 /* logo_no_text.png */,
+				84C6B3A0143F6119001A63E6 /* back.png */,
+				84C6B3A1143F6119001A63E6 /* dock-ghost.png */,
+				84C6B3A2143F6119001A63E6 /* dock-ghost@2x.png */,
+				84C6B3A3143F6119001A63E6 /* dock-shine.png */,
+				84C6B3A4143F6119001A63E6 /* dock-shine@2x.png */,
+				84C6B3A5143F6119001A63E6 /* dock.png */,
+				84C6B3A6143F6119001A63E6 /* dock@2x.png */,
+				84C6B3A7143F6119001A63E6 /* FFIcon.png */,
+				84C6B3A8143F6119001A63E6 /* FFIcon@2x.png */,
+			);
+			path = Images;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84C6B373143F5659001A63E6 /* ASCSpringboardTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84C6B395143F5659001A63E6 /* Build configuration list for PBXNativeTarget "ASCSpringboardTest" */;
+			buildPhases = (
+				84C6B370143F5659001A63E6 /* Sources */,
+				84C6B371143F5659001A63E6 /* Frameworks */,
+				84C6B372143F5659001A63E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ASCSpringboardTest;
+			productName = ASCSpringboardTest;
+			productReference = 84C6B374143F5659001A63E6 /* ASCSpringboardTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84C6B36B143F5659001A63E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 84C6B36E143F5659001A63E6 /* Build configuration list for PBXProject "ASCSpringboardTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 84C6B369143F5659001A63E6;
+			productRefGroup = 84C6B375143F5659001A63E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84C6B373143F5659001A63E6 /* ASCSpringboardTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84C6B372143F5659001A63E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C6B383143F5659001A63E6 /* InfoPlist.strings in Resources */,
+				84C6B39E143F5FDA001A63E6 /* ASCSpringboard.xib in Resources */,
+				84C6B3A9143F6119001A63E6 /* back.png in Resources */,
+				84C6B3AA143F6119001A63E6 /* dock-ghost.png in Resources */,
+				84C6B3AB143F6119001A63E6 /* dock-ghost@2x.png in Resources */,
+				84C6B3AC143F6119001A63E6 /* dock-shine.png in Resources */,
+				84C6B3AD143F6119001A63E6 /* dock-shine@2x.png in Resources */,
+				84C6B3AE143F6119001A63E6 /* dock.png in Resources */,
+				84C6B3AF143F6119001A63E6 /* dock@2x.png in Resources */,
+				84C6B3B0143F6119001A63E6 /* FFIcon.png in Resources */,
+				84C6B3B1143F6119001A63E6 /* FFIcon@2x.png in Resources */,
+				84C6B3B3143F6177001A63E6 /* logo_no_text.png in Resources */,
+				84C6B3C8143F8284001A63E6 /* about.png in Resources */,
+				84C6B3C9143F8284001A63E6 /* about@2x.png in Resources */,
+				84C6B3CA143F8284001A63E6 /* admissions.png in Resources */,
+				84C6B3CB143F8284001A63E6 /* admissions@2x.png in Resources */,
+				84C6B3CC143F8284001A63E6 /* dayton.png in Resources */,
+				84C6B3CD143F8284001A63E6 /* dayton@2x.png in Resources */,
+				84C6B3D7143F8C9B001A63E6 /* graduate.png in Resources */,
+				84C6B3D8143F8C9B001A63E6 /* graduate@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84C6B370143F5659001A63E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C6B385143F5659001A63E6 /* main.m in Sources */,
+				84C6B389143F5659001A63E6 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		84C6B381143F5659001A63E6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84C6B382143F5659001A63E6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84C6B393143F5659001A63E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84C6B394143F5659001A63E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84C6B396143F5659001A63E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ASCSpringboardTest/ASCSpringboardTest-Prefix.pch";
+				INFOPLIST_FILE = "ASCSpringboardTest/ASCSpringboardTest-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../../Library/Developer/Xcode/DerivedData/ASCSpringboard-burrbznnmpxmxagjdkiigyxhwapt/Build/Products/Debug-iphonesimulator\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		84C6B397143F5659001A63E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ASCSpringboardTest/ASCSpringboardTest-Prefix.pch";
+				INFOPLIST_FILE = "ASCSpringboardTest/ASCSpringboardTest-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../../Library/Developer/Xcode/DerivedData/ASCSpringboard-burrbznnmpxmxagjdkiigyxhwapt/Build/Products/Debug-iphonesimulator\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84C6B36E143F5659001A63E6 /* Build configuration list for PBXProject "ASCSpringboardTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84C6B393143F5659001A63E6 /* Debug */,
+				84C6B394143F5659001A63E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84C6B395143F5659001A63E6 /* Build configuration list for PBXNativeTarget "ASCSpringboardTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84C6B396143F5659001A63E6 /* Debug */,
+				84C6B397143F5659001A63E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84C6B36B143F5659001A63E6 /* Project object */;
+}

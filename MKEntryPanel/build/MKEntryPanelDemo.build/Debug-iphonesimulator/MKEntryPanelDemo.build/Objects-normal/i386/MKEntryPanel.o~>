@@ -1,0 +1,27 @@
+In file included from /Users/admin/Desktop/Code/SupportCode/MKEntryPanel/MKEntryPanel/MKEntryPanel.m:20:
+/Users/admin/Desktop/Code/SupportCode/MKEntryPanel/MKEntryPanel/MKEntryPanel.h:10:25: error: DoubleSlider.h: No such file or directory
+In file included from /Users/admin/Desktop/Code/SupportCode/MKEntryPanel/MKEntryPanel/MKEntryPanel.m:20:
+/Users/admin/Desktop/Code/SupportCode/MKEntryPanel/MKEntryPanel/MKEntryPanel.h:41: error: expected specifier-qualifier-list before 'DoubleSlider'
+/Users/admin/Desktop/Code/SupportCode/MKEntryPanel/MKEntryPanel/MKEntryPanel.h:56: error: expected specifier-qualifier-list before 'DoubleSlider'
+/Users/admin/Desktop/Code/SupportCode/MKEntryPanel/MKEntryPanel/MKEntryPanel.h:66: error: expected ')' before 'DoubleSlider'
+/Users/admin/Desktop/Code/SupportCode/MKEntryPanel/MKEntryPanel/MKEntryPanel.m:65: error: no declaration of property 'doubleSlider' found in the interface
+/Users/admin/Desktop/Code/SupportCode/MKEntryPanel/MKEntryPanel/MKEntryPanel.m: In function '+[MKEntryPanel panel]':
+/Users/admin/Desktop/Code/SupportCode/MKEntryPanel/MKEntryPanel/MKEntryPanel.m:91: error: request for member 'doubleSlider' in something not a structure or union
+/Users/admin/Desktop/Code/SupportCode/MKEntryPanel/MKEntryPanel/MKEntryPanel.m:91: error: 'DoubleSlider' undeclared (first use in this function)
+/Users/admin/Desktop/Code/SupportCode/MKEntryPanel/MKEntryPanel/MKEntryPanel.m:91: error: (Each undeclared identifier is reported only once
+/Users/admin/Desktop/Code/SupportCode/MKEntryPanel/MKEntryPanel/MKEntryPanel.m:91: error: for each function it appears in.)
+/Users/admin/Desktop/Code/SupportCode/MKEntryPanel/MKEntryPanel/MKEntryPanel.m:92: error: request for member 'doubleSlider' in something not a structure or union
+/Users/admin/Desktop/Code/SupportCode/MKEntryPanel/MKEntryPanel/MKEntryPanel.m:93: error: request for member 'doubleSlider' in something not a structure or union
+/Users/admin/Desktop/Code/SupportCode/MKEntryPanel/MKEntryPanel/MKEntryPanel.m:94: error: request for member 'doubleSlider' in something not a structure or union
+/Users/admin/Desktop/Code/SupportCode/MKEntryPanel/MKEntryPanel/MKEntryPanel.m: In function '+[MKEntryPanel showPanelWithTitle:inView:withInitialText:keyboardType:onTextEntered:]':
+/Users/admin/Desktop/Code/SupportCode/MKEntryPanel/MKEntryPanel/MKEntryPanel.m:116: error: request for member 'doubleSlider' in something not a structure or union
+/Users/admin/Desktop/Code/SupportCode/MKEntryPanel/MKEntryPanel/MKEntryPanel.m: In function '+[MKEntryPanel showPanelWithTitle:inView:withDoubleSliderUsingMin:andMax:onValuesEntered:]':
+/Users/admin/Desktop/Code/SupportCode/MKEntryPanel/MKEntryPanel/MKEntryPanel.m:141: error: request for member 'doubleSlider' in something not a structure or union
+/Users/admin/Desktop/Code/SupportCode/MKEntryPanel/MKEntryPanel/MKEntryPanel.m: In function '-[MKEntryPanel cancelTapped:]':
+/Users/admin/Desktop/Code/SupportCode/MKEntryPanel/MKEntryPanel/MKEntryPanel.m:170: error: request for member 'doubleSlider' in something not a structure or union
+/Users/admin/Desktop/Code/SupportCode/MKEntryPanel/MKEntryPanel/MKEntryPanel.m:170: error: request for member 'doubleSlider' in something not a structure or union
+/Users/admin/Desktop/Code/SupportCode/MKEntryPanel/MKEntryPanel/MKEntryPanel.m: At top level:
+/Users/admin/Desktop/Code/SupportCode/MKEntryPanel/MKEntryPanel/MKEntryPanel.m:179: error: expected ')' before 'DoubleSlider'
+/Users/admin/Desktop/Code/SupportCode/MKEntryPanel/MKEntryPanel/MKEntryPanel.m: In function '-[MKEntryPanel valueChangedForDoubleSlider:]':
+/Users/admin/Desktop/Code/SupportCode/MKEntryPanel/MKEntryPanel/MKEntryPanel.m:181: error: request for member 'minSelectedValue' in something not a structure or union
+/Users/admin/Desktop/Code/SupportCode/MKEntryPanel/MKEntryPanel/MKEntryPanel.m:182: error: request for member 'maxSelectedValue' in something not a structure or union
